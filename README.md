@@ -1,7 +1,14 @@
 # magnifier
 用webpack2,es6和react实现放大镜效果
 
+###版本说明
+
+react-only中仅仅使用了react，用react默认的方式来管理state
+
+react-redux中使用了react和redux，用global state的方式来管理state
+
 ###启动方法
+
 1)安装node.js
 
 2)将代码clone到本地，并选中package.json所在的文件夹
