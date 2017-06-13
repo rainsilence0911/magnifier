@@ -1,0 +1,1 @@
+export const PICTURE_CHANGED = "pic-changed";
