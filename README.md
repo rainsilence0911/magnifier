@@ -7,6 +7,8 @@ react-only中仅仅使用了react，用react默认的方式来管理state
 
 react-redux中使用了react和redux，用global state的方式来管理state
 
+vue2中使用了vue2和vuex，用global state的方式来管理state
+
 ###启动方法
 
 1)安装node.js
