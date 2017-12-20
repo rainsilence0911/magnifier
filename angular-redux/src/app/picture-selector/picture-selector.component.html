@@ -1,8 +1,5 @@
 <div>Switch Picture:
-    <select>
-        <option value="0">A</option>
-        <option value="1">B</option>
-        <option value="2">C</option>
-        <option value="3">D</option>
+    <select (change)="onSelectorChange($event)">
+        <option *ngFor="let img of imageList; let i = index" value="{{ i }}">{{ img }}</option>
     </select>
 </div>
