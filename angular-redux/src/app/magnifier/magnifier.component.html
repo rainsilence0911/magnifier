@@ -1,4 +1,4 @@
-<div class="magnifier-outter-range" #magnifierContainer>
-    <div class="magnifier-inner-range"></div>
+<div class="magnifier-outter-range" [ngStyle]="state.containerPosition" #magnifierContainer>
+    <div class="magnifier-inner-range" [ngStyle]="state.imagePosition"></div>
     <div class="magnifier-bar"></div>
 </div>

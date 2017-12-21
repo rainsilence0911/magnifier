@@ -1,10 +1,7 @@
 import {
     Component,
     OnInit,
-    Inject,
-    ViewChild,
-    ElementRef,
-    AfterViewInit
+    Inject
 } from '@angular/core';
 
 import Actions from '../reducer/magnifier.actions';
@@ -18,9 +15,7 @@ import { Store } from 'redux';
     templateUrl: './picture-selector.component.html',
     styleUrls: ['./picture-selector.component.css']
 })
-export class PictureSelectorComponent implements OnInit, AfterViewInit {
-
-    //@ViewChild("num", {read: ElementRef}) tref: ElementRef;
+export class PictureSelectorComponent implements OnInit {
 
     imageList: Array<string>;
 
@@ -41,9 +36,6 @@ export class PictureSelectorComponent implements OnInit, AfterViewInit {
         this.imageList = state.imageResources.map((image)=>{
             return image.name;
         });
-    }
-
-    ngAfterViewInit() {
     }
 
 }
