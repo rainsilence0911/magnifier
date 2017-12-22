@@ -1,5 +1,5 @@
 # magnifier
-用webpack2,es6和react实现放大镜效果
+本项目是常用框架的example，意在用webpack2,es6和react/vue/angular实现放大镜效果
 
 ###版本说明
 
@@ -8,6 +8,8 @@ react-only中仅仅使用了react，用react默认的方式来管理state
 react-redux中使用了react和redux，用global state的方式来管理state
 
 vue2中使用了vue2和vuex，用global state的方式来管理state
+
+angular-redux中用了angular和redux，用global state的方式来管理state
 
 ###启动方法
 
