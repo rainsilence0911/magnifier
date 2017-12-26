@@ -1,0 +1,5 @@
+<div>Switch Picture:
+    <select (change)="onSelectorChange($event)">
+        <option *ngFor="let img of imageList; let i = index" value="{{ i }}">{{ img }}</option>
+    </select>
+</div>
