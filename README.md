@@ -11,6 +11,8 @@ vue2中使用了vue2和vuex，用global state的方式来管理state
 
 angular-redux中用了angular和redux，用global state的方式来管理state
 
+angular-redux-ssr 是angular的server side rendering版本。
+
 ###启动方法
 
 1)安装node.js
