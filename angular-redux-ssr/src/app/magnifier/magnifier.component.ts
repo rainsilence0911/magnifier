@@ -38,7 +38,7 @@ export class MagnifierComponent implements AfterViewInit {
 
     @ViewChild("magnifierContainer", {read: ElementRef}) magnifierContainer: ElementRef;
 
-    state: MagnifierState;
+    state: MagnifierState = new MagnifierState();
 
     constructor(@Inject(AppStore) private store: Store<AppState>, @Inject(PLATFORM_ID) private platformId: Object) {
         store.subscribe(() => this.onStateChange());
